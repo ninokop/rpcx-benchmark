@@ -1,0 +1,9 @@
+---
+cse:
+  service:
+    registry:
+      address: http://10.120.195.2:30100 # If type is File then address will be the path of the file
+  handler:
+    chain:
+      Consumer:
+        default: loadbalance, transport

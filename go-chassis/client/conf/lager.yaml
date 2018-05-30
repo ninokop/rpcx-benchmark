@@ -1,0 +1,4 @@
+---
+writers: stdout
+# LoggerLevel: |DEBUG|INFO|WARN|ERROR|FATAL
+logger_level: INFO
